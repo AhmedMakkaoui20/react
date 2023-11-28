@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Add this to your CSS file or in your component */
+.dropdown-item {
+  margin-right: 8px; /* Adjust the spacing as needed */
+}

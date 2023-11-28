@@ -1,3 +1,5 @@
+/* App.css */
+
 .App {
   text-align: center;
 }
@@ -24,8 +26,26 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Add styles for the filter-list container */
+.filter-list {
+  margin-top: 20px;
+}
+
+/* Add styles for the search input */
+.filter-list input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+/* Add styles for the dropdown button */
+.filter-list .dropdown-toggle {
+  background-color: #61dafb;
+  color: white;
+}
+
+/* Add styles for the dropdown items */
+.filter-list .dropdown-item {
+  color: #282c34;
 }
 
 @keyframes App-logo-spin {
